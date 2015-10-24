@@ -5,13 +5,17 @@ USE WITH EXTREME CARE!
 
 # usage
 
+## install
+
+npm install -g nrsc
+
 ## default parameters
 
-node nrsc -v false -silent false -h localhost -p 6379 -m "nrsc*" -c "get"
+nrsc -v false -silent false -h localhost -p 6379 -m "nrsc*" -c "get"
 
 ## example to delete all matching keys
 
-node nrsc -m "session*" -c "del"
+nrsc -m "session*" -c "del"
 
 ## available options
 
