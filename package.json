@@ -8,7 +8,7 @@
     "url": "git://github.com/itsatony/nrsc.git"
   },
   "bin": { "nrsc": "./nrsc.js" },
-	"main": "nrsc.js",
+	"main": "./lib/nrsc.js",
   "engine": "node >= 0.12.0",
   "dependencies": {
     "hiredis": "latest",
