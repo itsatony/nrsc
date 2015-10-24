@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git://github.com/itsatony/nrsc.git"
   },
+  "bin": { "nrsc": "./nrsc.js" },
+	"main": "nrsc.js",
+  "engine": "node >= 0.12.0",
   "dependencies": {
     "hiredis": "latest",
     "redis": "latest",
@@ -14,16 +17,12 @@
 	  "bluebird": "latest",
     "minimist": "latest",
     "bunyan": "^1.4.0",
-    "bunyan-format": "^0.2.1"
-		
+    "bunyan-format": "^0.2.1"		
   },
   "devDependencies": {
     "mocha": "1.13.0",
     "should": "2.0.1"
   },
   "directories": {
-    "lib": "lib"
-  },
-	"main": "nrsc.js",
-  "engine": "node >= 0.10.0"
+  }
 }
