@@ -1,13 +1,13 @@
 {
   "name": "nrsc",
   "description": "a node js tool to scan redis keys via pattern and execute a command on them",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Toni Wagner <i@itsatony.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/itsatony/nrsc.git"
   },
-  "bin": { "nrsc": "./nrsc.js" },
+  "bin": { "nrsc": "/bin/nrsc.js" },
 	"main": "/lib/nrsc.js",
   "engine": "node >= 0.12.0",
   "dependencies": {
